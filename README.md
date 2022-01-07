@@ -9,12 +9,12 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Create config file
+## Create config file
 ```bash
 cp config/config.template.ini config/config.ini
 ```
 
-# Execute tests 
+## Execute tests 
 ```bash
 pytest -s
 ``` 
